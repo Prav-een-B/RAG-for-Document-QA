@@ -19,7 +19,7 @@ from app.embedder import embed_chunks
 from app.retriever import retrieve
 from app.generator import generate_answer
 
-DOC_PATH = r"C:\Users\prave\Downloads\echapter.pdf" # ADD YOUR DOCUMENT PATH HERE
+DOC_PATH = "Your_PATH" # ADD YOUR DOCUMENT PATH HERE
 
 CACHE_DIR = "cache"
 EMB_FILE = os.path.join(CACHE_DIR, "embeddings.npy")
