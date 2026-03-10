@@ -106,17 +106,6 @@ This project is still experimental and mainly intended as a learning exercise.
 
 ---
 
-## Possible improvements
-
-Some things that could be added later:
-
-* FAISS or another vector database for faster retrieval
-* a small web interface (Flask / Streamlit)
-* better handling of tables and figures from PDFs
-* evaluation metrics for retrieval quality
-
----
-
 ## Author
 
 Praveen B
