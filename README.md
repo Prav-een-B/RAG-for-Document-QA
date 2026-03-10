@@ -42,11 +42,11 @@ RAG-for-Document-QA
 Clone the repository
 
 ```bash
-git clone https://github.com/Prav-een-B/RAG-for-Docnument-Q-and-A.git
-cd RAG-for-Docnument-Q-and-A
+git clone https://github.com/Prav-een-B/RAG-for-Document-QA.git
+cd RAG-for-Document-QA
 ```
 
-Create a virtual environment
+Create a virtual environment(Recommended)
 
 ```bash
 python -m venv RAG
