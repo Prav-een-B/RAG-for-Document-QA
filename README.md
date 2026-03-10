@@ -86,7 +86,7 @@ Before running the project, open:
 app/generator.py
 ```
 
-and replace the API key with your own:
+and replace the API key with your own (line 5):
 
 ```python
 api_key = "YOUR_OPENROUTER_API_KEY"
@@ -102,10 +102,10 @@ https://openrouter.ai
 
 The pipeline currently expects a specific PDF file.
 
-Open the file where the document path is defined and update it to your document:
+Edit the run.py where the document path is defined (line 22) and update it to your document:
 
 ```python
-file_path = "path/to/your/document.pdf"
+DOC_PATH = "path/to/your/document.pdf"
 ```
 
 Make sure the file exists before running the pipeline.
@@ -116,7 +116,7 @@ Make sure the file exists before running the pipeline.
 
 The project stores processed embeddings/chunks locally so that the document does not need to be reprocessed every time.
 
-If you switch to a **different PDF**, you should clear the cached data first (for example the stored embeddings file or cache folder), otherwise the system may still use embeddings from the previous document.
+If you switch to a **different PDF**, you should clear the cached data first (DELETE THE ENTIRE FOLDER NAMED **CACHE**), otherwise the system may still use embeddings from the previous document.
 
 ---
 
